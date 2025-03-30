@@ -1,0 +1,38 @@
+.pangramInput {
+	width: 200px;
+	height: 40px;
+	z-index: 2;
+	border: 1px solid !important;
+	border-color: lightgray !important;
+}
+
+.b {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to right, rgba(99, 0, 0, 0.2), rgba(0, 0, 99, 0.7));
+}
+
+.heading {
+	font-size: 45px;
+}
+
+.mainContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 40vh;
+	z-index: 1;
+}
+
+.mainButton {
+	background: linear-gradient(to right, rgba(255, 0, 0, 0.7), rgba(0, 0, 255, 0.7)) !important;
+	color: lightgray !important;
+	border: none;
+	width: 115px;
+	height: 65px;
+	padding: 7px 7px;
+	font-size: 16px;
+	text-align: center;
+}

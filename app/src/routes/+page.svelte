@@ -5,6 +5,7 @@
     import TabBar from '@smui/tab-bar';
 	import Anagram from '../components/Anagram.svelte';
     import Pangram from '../components/Pangram.svelte';
+	import CustomSnackbar from '../components/CustomSnackbar.svelte';
 
     let active = $state('Pangram');
 </script>
@@ -25,7 +26,7 @@
             <Anagram/>
         {/if}
 
-
+    <CustomSnackbar />
 
 <style>
 
